@@ -10,6 +10,7 @@ describe Owner do
   context 'Class methods' do
     it "keeps track of the owners that have been created" do
       expect(Owner.all).to include(owner)
+      puts Owner.all
     end
 
     it "can count how many owners have been created" do
